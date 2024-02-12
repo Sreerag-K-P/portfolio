@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="flex flex-col p-4 md:px-10 lg:px-20">
           <h1 className="text-4xl">
             Hey, I&apos;m
-            <span className="font-bold text-blue-500">Ajithdev</span>
+            <span className="font-bold text-blue-500"> Ajithdev</span>
           </h1>
 
           <h2 className="mt-2">

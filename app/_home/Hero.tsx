@@ -20,18 +20,18 @@ const Hero = () => {
         </div>
         <div className="flex flex-col p-4 md:px-10 lg:px-20">
           <h1 className="text-4xl">
-            Hey, I`&apos`m
+            Hey, I&apos;m
             <span className="font-bold text-blue-500">Ajithdev</span>
           </h1>
 
           <h2 className="mt-2">
             <span className="font-medium">Software Developer,</span> passionate
             to develop
-            <br /> websites and softwares for the people`&apos`s
+            <br /> websites and softwares for the people&apos;s
           </h2>
           <h3 className="italic mt-2">
-            &quotLearn my self | Acquire knowledge from others | Teach to
-            fellow`&apos`s`&quot`
+            &quot;Learn my self | Acquire knowledge from others | Teach to
+            fellow&apos;s&quot;
           </h3>
           <a href="#contact">
             <button className="bg-blue-500 font-semibold p-2 w-fit rounded-md mt-6">

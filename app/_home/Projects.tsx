@@ -5,6 +5,14 @@ import React from "react";
 const Projects = () => {
   const projects = [
     {
+      projectName: "Restaurant App",
+      img: "/restaurant.avif",
+      paragraph:
+        "Restaurant application helps to list restaurants and their dishes, users can search by dishes, town, country. Add to favourite section is added, individual details page is created, fiter data by destinction, greenstar, daysopen, cusine, services/facilities, lower to higher. Pagination , near by restaurants, locations added. Mobile responsive. Content is comming from Content Management System(CMS) of Sanity.",
+      link: "https://restaurants-rest.vercel.app/",
+      toKnow: " Click Here to know",
+    },
+    {
       projectName: "CRM Application",
       img: "/crmimg.jpg",
       paragraph:
@@ -13,6 +21,7 @@ const Projects = () => {
       stack:
         "Tech - NextJs 14, JavaScript, Tailwind CSS, Vercel, Git , NodeJs, Mongo DB",
     },
+
     {
       projectName: "Youtube Software Application",
       img: "/youtubeapp.avif",
@@ -28,14 +37,6 @@ const Projects = () => {
       paragraph:
         "As started as a frontend developer, I done a lot of Figma designs into frontend components and learn to do complex frontend designs to code. It gives a lot of confidense to write HTML and CSS to create any complex figma designs.And master TAILWIND CSS it is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
       link: "https://figma-designs-ajithdev.vercel.app/",
-      toKnow: " Click Here to know",
-    },
-    {
-      projectName: "Music application",
-      img: "/music.avif",
-      paragraph:
-        "Created this music application with REACT JS is a great experience in my web developer carrer. It teach me to how to code and make application to the end users. I improve my knowledge in tailwindcss and making API to fetch datas from external API'S to our applications.",
-      link: "https://musicplayerajithdev.netlify.app",
       toKnow: " Click Here to know",
     },
   ];
@@ -59,13 +60,14 @@ const Projects = () => {
                   {projectName}
                 </div>
                 <div className="flex flex-col md:flex-row gap-8">
-                  <Image
-                    src={img}
-                    alt="figma"
-                    className="object-cover rounded-md w-full md:w-auto"
-                    width={200}
-                    height={200}
-                  />
+                  <div className="w-96 h-48 relative">
+                    <Image
+                      src={img}
+                      alt="figma"
+                      className="object-cover  h-full z-0 rounded-md"
+                      fill
+                    />
+                  </div>
                   <div className="p-4 leading-8 tracking-wide text-justify">
                     {paragraph}
                     <div>{stack}</div>

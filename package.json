@@ -12,8 +12,10 @@
     "@datastax/astra-db-ts": "^0.1.4",
     "@emailjs/browser": "^3.12.1",
     "@langchain/openai": "^0.0.14",
+
     "@upstash/redis": "^1.28.3",
     "ai": "^2.2.33",
+
     "clsx": "^2.1.0",
     "emailjs": "^4.0.3",
     "langchain": "^0.1.12",
@@ -25,7 +27,8 @@
     "react-dom": "^18",
     "react-icons": "^5.0.1",
     "react-markdown": "^9.0.1",
-    "tailwind-merge": "^2.2.1"
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -38,5 +41,7 @@
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   },
-  "overrides": {"@langchain/core" : "0.1.20"}
+  "overrides": {
+    "@langchain/core": "0.1.20"
+  }
 }

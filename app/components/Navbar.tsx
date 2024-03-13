@@ -26,10 +26,10 @@ export function Navbar() {
         <a href="#contact">
           <div className="bg-[#370858] rounded-full px-10 py-3">Connect Me</div>
         </a>
-        <div className="flex items-center gap-4 ml-4">
+        {/* <div className="flex items-center gap-4 ml-4">
           <AIChatButton />
           <ThemeToggle />
-        </div>
+        </div> */}
       </div>
       <div
         onClick={() => setShow(!show)}

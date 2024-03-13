@@ -17,7 +17,8 @@ const Projects = () => {
       img: "/crmimg.jpg",
       paragraph:
         "Created this Customer Relationship Management(CRM) Software with NEXT.JS App Router feature . This software helps the company to  maintain their internal activities like add Leads and monitor     the different stages of work of the company send quatation to  the other companies. It also includes authentication(Login of specific users). Backend by using NODE.JS and database of MONGO DB",
-      link: " ",
+      link: "https://crmwwd.vercel.app/",
+      toKnow: " Click Here to know",
       stack:
         "Tech - NextJs 14, JavaScript, Tailwind CSS, Vercel, Git , NodeJs, Mongo DB",
     },
@@ -27,7 +28,8 @@ const Projects = () => {
       img: "/youtubeapp.avif",
       paragraph:
         "The Youtube Software application as same as working of Youtube functionalities of searching of videos, related videos, comments, channels etc..are added with a great user experience. Bulk amount of data from a server to your applications through API a great experience",
-      link: "https://www.linkedin.com/feed/update/urn:li:activity:7134054513954488320/ ",
+      link: "https://youtube-ajithdev.vercel.app/",
+      toKnow: " Click Here to know",
       stack:
         "Tech - NextJs 14, JavaScript, Tailwind CSS, Vercel, Rapid API, Git etc..",
     },
@@ -42,7 +44,7 @@ const Projects = () => {
   ];
   return (
     <div
-      className="bg-gradient-to-r from-[#0d0a0d] to-[#1f0833ff] text-white"
+      className="bg-gradient-to-r from-[#0d0a0d] to-[#1f0833ff] text-white pt-10"
       id="project"
     >
       <div className="max-w-screen-xl mx-auto">
@@ -60,7 +62,7 @@ const Projects = () => {
                   {projectName}
                 </div>
                 <div className="flex flex-col md:flex-row gap-8">
-                  <div className="w-96 h-48 relative">
+                  <div className="lg:w-1/5 h-48 relative">
                     <Image
                       src={img}
                       alt="figma"
@@ -68,13 +70,13 @@ const Projects = () => {
                       fill
                     />
                   </div>
-                  <div className="p-4 leading-8 tracking-wide text-justify">
+                  <div className="p-4 lg:w-4/5 leading-8 tracking-wide text-justify">
                     {paragraph}
                     <div>{stack}</div>
                   </div>
                 </div>
-                <Link href={link}>
-                  <button className="px-4 py-2 text-center text-black rounded-md">
+                <Link href={link} target="_blank">
+                  <button className="px-4 py-2 text-center text-white rounded-md">
                     {toKnow}
                   </button>
                 </Link>

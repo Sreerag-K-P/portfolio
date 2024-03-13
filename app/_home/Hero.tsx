@@ -8,7 +8,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <div className="bg-gradient-to-r from-[#0d0a0d] to-[#1f0833ff]">
-      <div className="py-20 max-w-screen-xl mx-auto  flex flex-col md:flex-row px-20 text-white">
+      <div className="p-8 md:p-20 max-w-screen-xl mx-auto  flex flex-col md:flex-row text-white">
         <div className="flex justify-center items-center">
           <Image
             src={portfolio}
@@ -18,7 +18,7 @@ const Hero = () => {
             className="rounded-md w-full md:w-auto"
           />
         </div>
-        <div className="flex flex-col p-4 md:px-10 lg:px-20">
+        <div className="flex flex-col py-6 md:px-10 lg:px-20">
           <h1 className="text-4xl">
             Hey, I&apos;m
             <span className="font-bold text-blue-500"> Ajithdev</span>

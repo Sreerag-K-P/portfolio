@@ -5,12 +5,22 @@ import React from "react";
 const Projects = () => {
   const projects = [
     {
+      projectName: "Church App",
+      img: "/church.png",
+      paragraph:
+        "Church App for given the details of specific church and their events, events comes from Content Management System (SANITY), SwiperJs is used for caurosal, aboutus page, site is mobile responsive, EmailJs is used for mailing.",
+      link: "https://londonchurch.vercel.app/",
+      toKnow: " Click Here to know",
+      stack: "Tech - NextJs 14, TypeScript, Tailwind CSS, Vercel, Git , Sanity",
+    },
+    {
       projectName: "Restaurant App",
       img: "/restaurant.avif",
       paragraph:
         "Restaurant application helps to list restaurants and their dishes, users can search by dishes, town, country. Add to favourite section is added, individual details page is created, fiter data by destinction, greenstar, daysopen, cusine, services/facilities, lower to higher. Pagination , near by restaurants, locations added. Mobile responsive. Content is comming from Content Management System(CMS) of Sanity.",
       link: "https://restaurants-rest.vercel.app/",
       toKnow: " Click Here to know",
+      stack: "Tech - NextJs 14, TypeScript, Tailwind CSS, Vercel, Git , Sanity",
     },
     {
       projectName: "CRM Application",
@@ -40,6 +50,7 @@ const Projects = () => {
         "As started as a frontend developer, I done a lot of Figma designs into frontend components and learn to do complex frontend designs to code. It gives a lot of confidense to write HTML and CSS to create any complex figma designs.And master TAILWIND CSS it is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
       link: "https://figma-designs-ajithdev.vercel.app/",
       toKnow: " Click Here to know",
+      stack: "Tech - NextJs 13, TypeScript, Tailwind CSS, Vercel, Git etc..",
     },
   ];
   return (

@@ -33,15 +33,20 @@ export function Navbar() {
           <ThemeToggle />
         </div> */}
       </div>
-      <div
-        onClick={() => setShow(!show)}
-        className="block p-4 cursor-pointer md:hidden"
-      >
-        {show ? (
-          <FaXmark className="text-white w-10 h-10" />
-        ) : (
-          <IoReorderThreeOutline className="text-white w-10 h-10" />
-        )}
+      <div className="flex relative">
+        <div
+          onClick={() => setShow(!show)}
+          className="block p-4 cursor-pointer md:hidden"
+        >
+          {show ? (
+            <FaXmark className="text-white w-10 h-10" />
+          ) : (
+            <IoReorderThreeOutline className="text-white w-10 h-10" />
+          )}
+        </div>
+        <div className="font-bold text-xl text-white justify-start my-auto   block md:hidden">
+          AJITHDEV C
+        </div>
       </div>
       {show && (
         <div

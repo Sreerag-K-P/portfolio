@@ -19,9 +19,9 @@ const Hero = () => {
           />
         </div>
         <div className="flex flex-col py-6 md:px-10 lg:px-20">
-          <h1 className="text-4xl">
+          <h1 className="text-3xl md:text-4xl">
             Hey, I&apos;m
-            <span className="font-bold text-blue-500"> Ajithdev</span>
+            <span className="font-bold text-blue-500"> Ajithdev C</span>
           </h1>
 
           <h2 className="mt-2">
@@ -34,15 +34,18 @@ const Hero = () => {
             fellow&apos;s&quot;
           </h3>
           <a href="#contact">
-            <button className="bg-blue-500 font-semibold p-2 w-fit rounded-md mt-6">
+            <button className="bg-blue-500 font-semibold px-4 py-2 w-fit rounded-md mt-6">
               Get In Touch
             </button>
           </a>
           <div className="flex gap-4 py-4">
-            <Link href="https://www.linkedin.com/in/ajithdev-c-software-developer/">
+            <Link
+              href="https://www.linkedin.com/in/ajithdev-c/"
+              target="_blank"
+            >
               <FaLinkedin className="w-6 h-6" />
             </Link>
-            <Link href="https://github.com/Ajithdev444">
+            <Link href="https://github.com/Ajithdev444" target="_blank">
               <FaGithub className="w-6 h-6" />
             </Link>
           </div>

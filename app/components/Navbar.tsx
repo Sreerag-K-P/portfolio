@@ -10,7 +10,7 @@ export function Navbar() {
   const [show, setShow] = useState(false);
   return (
     <div className="bg-[#121418] z-10 sticky top-0 ">
-      <div className=" hidden md:flex items-center justify-center bg-[#1f0833ff] text-white p-6 px-20 rounded-md border-solid border border-violet-950">
+      <div className="hidden md:flex items-center justify-center bg-[#1f0833ff] text-white p-6 px-20 rounded-md border-solid border border-violet-950">
         <div className="text-lg font-semibold">#AJITHDEV</div>
         <div className="flex gap-10 px-20 ">
           <Link href="/">
@@ -24,7 +24,9 @@ export function Navbar() {
           </Link>
         </div>
         <a href="#contact">
-          <div className="bg-[#370858] rounded-full px-10 py-3">Connect Me</div>
+          <div className="bg-[#370858] rounded-full md:px-10 md:py-3">
+            Connect Me
+          </div>
         </a>
         {/* <div className="flex items-center gap-4 ml-4">
           <AIChatButton />

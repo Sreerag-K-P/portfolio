@@ -15,7 +15,7 @@ const Hero = () => {
             alt="portfolio"
             width={200}
             height={200}
-            className="rounded-md w-full md:w-auto"
+            className="rounded-md  md:w-auto"
           />
         </div>
         <div className="flex flex-col py-6 md:px-10 lg:px-20">

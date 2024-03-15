@@ -53,7 +53,7 @@ const Skills = () => {
             Skills
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 place-items-center py-6 md:p-20 lg:p-10 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 place-items-center py-6 md:p-20 lg:p-10 gap-4 md:gap-8">
           {skillImages.map(({ src }) => (
             <div key={src}>
               <Image

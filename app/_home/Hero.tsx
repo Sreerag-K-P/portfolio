@@ -34,11 +34,11 @@ const Hero = () => {
             fellow&apos;s&quot;
           </h3>
           <a href="#contact">
-            <button className="bg-blue-500 font-semibold px-4 py-2 w-fit rounded-md mt-6">
+            <button className="bg-blue-500 font-semibold text-sm px-6 py-2 w-fit rounded-md mt-6">
               Get In Touch
             </button>
           </a>
-          <div className="flex gap-4 py-4">
+          <div className="flex gap-4 pt-6">
             <Link
               href="https://www.linkedin.com/in/ajithdev-c/"
               target="_blank"

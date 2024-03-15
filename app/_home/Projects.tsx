@@ -67,9 +67,9 @@ const Projects = () => {
             ({ projectName, img, paragraph, link, stack, toKnow }) => (
               <div
                 key={projectName}
-                className="bg-gradient-to-r from-blue-600 to-[#0f0c29] rounded-md p-4"
+                className="bg-gradient-to-r from-[#29292e] to-[#37334e] rounded-md p-4"
               >
-                <div className="text-center text-lg pb-4 text-white font-bold tracking-wider">
+                <div className="text-center text-xl pb-4 text-white font-bold tracking-wider">
                   {projectName}
                 </div>
                 <div className="flex flex-col md:flex-row gap-8">

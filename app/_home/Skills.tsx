@@ -49,9 +49,7 @@ const Skills = () => {
     >
       <div className="max-w-screen-xl mx-auto">
         <div className="flex justify-center items-center">
-          <div className="text-2xl pt-6 lg:text-4xl font-bold tracking-wider">
-            Skills
-          </div>
+          <div className="pt-6 text-4xl font-bold tracking-wider">Skills</div>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 place-items-center py-6 md:p-20 lg:p-10 gap-4 md:gap-8">
           {skillImages.map(({ src }) => (

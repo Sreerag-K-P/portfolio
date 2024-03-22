@@ -18,7 +18,7 @@ const Projects = () => {
       img: "/restaurant.avif",
       paragraph:
         "Restaurant application helps to list restaurants and their dishes, users can search by dishes, town, country. Add to favourite section is added, individual details page is created, fiter data by destinction, greenstar, daysopen, cusine, services/facilities, lower to higher. Pagination , near by restaurants, locations added. Mobile responsive. Content is comming from Content Management System(CMS) of Sanity.",
-      link: "https://restaurants-rest.vercel.app/",
+      link: "https://restaurant-app-ajdev.vercel.app/",
       toKnow: " Click Here to Watch",
       stack: "Tech - NextJs 14, TypeScript, Tailwind CSS, Vercel, Git , Sanity",
     },
@@ -38,7 +38,7 @@ const Projects = () => {
       img: "/youtubeapp.avif",
       paragraph:
         "The Youtube Software application as same as working of Youtube functionalities of searching of videos, related videos, comments, channels etc..are added with a great user experience. Bulk amount of data from a server to your applications through API a great experience",
-      link: "https://youtube-ajithdev.vercel.app/",
+      link: "https://youtube-app-ajdev.vercel.app/",
       toKnow: " Click Here to Watch",
       stack:
         "Tech - NextJs 14, JavaScript, Tailwind CSS, Vercel, Rapid API, Git etc..",
@@ -48,7 +48,7 @@ const Projects = () => {
       img: "/figgm.png",
       paragraph:
         "As started as a frontend developer, I done a lot of Figma designs into frontend components and learn to do complex frontend designs to code. It gives a lot of confidense to write HTML and CSS to create any complex figma designs.And master TAILWIND CSS it is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
-      link: "https://figma-designs-ajithdev.vercel.app/",
+      link: "https://figma-designs-ajdev.vercel.app/",
       toKnow: " Click Here to Watch",
       stack: "Tech - NextJs 13, TypeScript, Tailwind CSS, Vercel, Git etc..",
     },

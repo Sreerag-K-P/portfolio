@@ -15,7 +15,7 @@ export default function Home() {
     <main className="w-full">
       <>
         <motion.div
-          className="fixed top-30 z-20 left-0 right-0 h-2 bg-blue-500 origin-[0%] transform"
+          className="fixed top-30 z-20 left-0 right-0 h-1 bg-blue-500 origin-[0%] transform"
           style={{ scaleX: scrollYProgress }}
         ></motion.div>
         <ParticlesBg />

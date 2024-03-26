@@ -22,7 +22,8 @@ const Contact = () => {
           console.log(result.text);
 
           setStatusMessage("Email sent success");
-          clearState();
+          // clearState();
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
@@ -31,7 +32,7 @@ const Contact = () => {
   };
   return (
     <div
-      className="text-white bg-gradient-to-r from-[#0d0a0d] to-[#1f0833ff] "
+      className="text-white dark:text-white bg-gradient-to-r from-[#0d0a0d] to-[#1f0833ff]  max-sm:mt-28"
       id="contact"
     >
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2">
@@ -44,7 +45,7 @@ const Contact = () => {
                 type="text"
                 name="user_name"
                 placeholder="Name"
-                className="p-4 rounded-md text-black"
+                className="p-4 rounded-md text-black dark:text-white"
               />
             </div>
             <div className="flex flex-col gap-2 mt-3 z-10">
@@ -53,7 +54,7 @@ const Contact = () => {
                 type="email"
                 name="user_email"
                 placeholder="Email"
-                className="p-4 rounded-md text-black"
+                className="p-4 rounded-md text-black dark:text-white"
               />
             </div>
             <div className="flex flex-col gap-2 mt-3 z-10">
@@ -61,7 +62,7 @@ const Contact = () => {
               <textarea
                 name="message"
                 placeholder="Comment"
-                className="p-4 rounded-md text-black"
+                className="p-4 rounded-md text-black dark:text-white"
               />
             </div>
             <button

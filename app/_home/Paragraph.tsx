@@ -22,7 +22,7 @@ function Paragraph({ children, projectName }: Props) {
       ref={ref}
       className={`${
         isInView ? "text-white " : " text-white/10"
-      } text-2xl leading-8 tracking-wider py-16 max-lg:text-xl transition-colors font-medium text-wrap`}
+      }  leading-8 tracking-wider py-16  transition-colors font-medium text-wrap text-justify`}
     >
       {children}
     </p>

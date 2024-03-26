@@ -104,7 +104,7 @@ const Projects = () => {
             )
           )}
         </div> */}
-        <div className="flex w-full max-xl:px-12 max-md:flex-col-reverse items-start gap-20 max-lg:gap-5 mb-5">
+        <div className="flex w-full max-xl:px-12 max-md:flex-col-reverse items-start gap-20 max-lg:gap-5 mb-5 p-32">
           <div className="w-full py-[50vh] max-md:py-0 z-10 max-md:opacity-0 ">
             <ul>
               {projects.map((project) => (

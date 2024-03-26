@@ -13,7 +13,7 @@ export function Navbar() {
     <div className="bg-[#121418] z-20 sticky top-0 w-full">
       <div className="hidden md:flex items-center justify-center bg-[#1f0833ff] text-white p-6 px-20 rounded-md border-solid border border-violet-950">
         <div className="text-lg font-semibold">#AJITHDEV</div>
-        <div className="flex gap-10 px-20 ">
+        <div className="flex gap-10 px-20 max-lg:px-14 ">
           <Link href="/">
             <div className="font-semibold">Home</div>
           </Link>

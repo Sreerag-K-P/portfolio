@@ -22,7 +22,8 @@ const Contact = () => {
           console.log(result.text);
 
           setStatusMessage("Email sent success");
-          clearState();
+          // clearState();
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
@@ -31,50 +32,50 @@ const Contact = () => {
   };
   return (
     <div
-      className="text-white bg-gradient-to-r from-[#0d0a0d] to-[#1f0833ff]"
+      className="text-white dark:text-white bg-gradient-to-r from-[#0d0a0d] to-[#1f0833ff]  max-sm:mt-28"
       id="contact"
     >
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2">
-        <div className="p-10">
-          <div className="font-bold text-xl p-4">Connect Me</div>
-          <form ref={form} onSubmit={sendEmail} className="flex flex-col p-4">
-            <div className="flex flex-col gap-2 ">
+        <div className="p-10 z-10">
+          <p className="font-bold text-xl p-4 ">Connect Me</p>
+          <form ref={form} onSubmit={sendEmail} className="flex flex-col p-4 ">
+            <div className="flex flex-col gap-2 z-10">
               <label className="font-semibold text-lg">Name</label>
               <input
                 type="text"
                 name="user_name"
                 placeholder="Name"
-                className="p-4 rounded-md text-black"
+                className="p-4 rounded-md text-black dark:text-white"
               />
             </div>
-            <div className="flex flex-col gap-2 mt-3 ">
+            <div className="flex flex-col gap-2 mt-3 z-10">
               <label className="font-semibold text-lg">Email</label>
               <input
                 type="email"
                 name="user_email"
                 placeholder="Email"
-                className="p-4 rounded-md text-black"
+                className="p-4 rounded-md text-black dark:text-white"
               />
             </div>
-            <div className="flex flex-col gap-2 mt-3 ">
+            <div className="flex flex-col gap-2 mt-3 z-10">
               <label className="font-semibold text-lg">Comment</label>
               <textarea
                 name="message"
                 placeholder="Comment"
-                className="p-4 rounded-md text-black"
+                className="p-4 rounded-md text-black dark:text-white"
               />
             </div>
             <button
               type="submit"
               value="Send"
-              className="rounded-md p-2 bg-blue-500 mt-8"
+              className="rounded-md p-2 bg-blue-500 mt-8 z-10"
             >
               Submit
             </button>
             {statusMessage}
           </form>
         </div>
-        <div className="pt-10 lg:pt-16 p-10">
+        <div className="pt-10 lg:pt-16 p-10 z-10">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125745.78219958892!2d76.30829335!3d9.970874599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d08f976f3a9%3A0xe9cdb444f06ed454!2sErnakulam%2C%20Kerala%2C%20India!5e0!3m2!1sen!2sjp!4v1707711527659!5m2!1sen!2sjp"
             width=""

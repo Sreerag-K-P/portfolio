@@ -5,14 +5,15 @@ import { IoReorderThreeOutline } from "react-icons/io5";
 import { FaXmark } from "react-icons/fa6";
 import ThemeToggle from "./ThemeToggle";
 import AIChatButton from "./AIChatButton";
+import { MotionDiv } from "./motion/MotionDiv";
 
 export function Navbar() {
   const [show, setShow] = useState(false);
   return (
-    <div className="bg-[#121418] z-10 sticky top-0 ">
+    <div className="bg-[#121418] z-20 sticky top-0 w-full">
       <div className="hidden md:flex items-center justify-center bg-[#1f0833ff] text-white p-6 px-20 rounded-md border-solid border border-violet-950">
         <div className="text-lg font-semibold">#AJITHDEV</div>
-        <div className="flex gap-10 px-20 ">
+        <div className="flex gap-10 px-20 max-lg:px-14 ">
           <Link href="/">
             <div className="font-semibold">Home</div>
           </Link>
@@ -24,7 +25,7 @@ export function Navbar() {
           </Link>
         </div>
         <a href="#contact">
-          <div className="bg-[#370858] rounded-full md:px-10 md:py-3">
+          <div className="bg-[#370858] rounded-full md:px-10 md:py-3 max-lg:text-sm">
             Connect Me
           </div>
         </a>
@@ -51,7 +52,7 @@ export function Navbar() {
       {show && (
         <div
           onClick={() => setShow(!show)}
-          className="h-30  bg-white p-2 rounded-md absolute right-10 top-4 flex gap-3"
+          className="h-30  bg-white text-blue-500 p-2 rounded-md absolute right-10 top-4 flex gap-3"
         >
           <Link href="/">
             <div className="font-semibold">Home</div>
